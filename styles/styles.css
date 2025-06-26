@@ -10,6 +10,11 @@ body {
   font-family: "Merriweather", "Inter", sans-serif;
 }
 
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 /* Hero Section */
 
 header {
@@ -46,7 +51,7 @@ header {
 }
 
 .discount {
-    margin: 70px 0;
+    margin: 120px auto;
     align-items: center;
     text-align: center;
 }
@@ -79,4 +84,116 @@ header {
     margin-top: 48px;
 }
 
+/* Welcome Section */
 
+.welcome {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url(../images/Vectorrr.png) no-repeat center center;
+    border-radius: 16px;
+    margin: 120px auto;
+    padding: 68px 126px 68px 138px;
+}
+
+
+.welcome-title {
+    width: 642px;
+    font-size: 64px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.welcome-text {
+    width: 697px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #dadada;
+    margin: 24px 0 48px 0;
+}
+
+.welcome-button {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Timer Section */
+
+.timer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    height: 482px;
+    border-radius: 16px;
+    margin: 120px auto;
+    padding: 68px 126px 68px 138px;
+}
+
+.timer-text {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    margin: 16px;
+}
+
+.timer-text span {
+    color: #FF0000;
+}
+
+.time-btn {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #FF0000;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+
+.time-btn:hover {
+    background-color: #e60000;
+    transition: background-color 0.3s ease;
+}
+
+/* Coming Soon Section */
+
+.coming-soon-cld {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.first {
+    width: 393px;
+    height: 255px;
+}
+
+.snd {
+    border: #FF0000 15px solid;
+    border-radius: 100%;
+    padding: 50px;
+}
+
+.trd {
+    width: 276px;
+}
